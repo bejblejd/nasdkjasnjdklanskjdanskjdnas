@@ -30,3 +30,4 @@ function getMobileOperatingSystem() {
   
   if (getMobileOperatingSystem() == 2){
       document.querySelector(".bottom_bar").style.height = "70px"
+}
