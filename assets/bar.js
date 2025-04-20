@@ -1,8 +1,8 @@
 var params = new URLSearchParams(window.location.search);
 
-function sendTo(url) {
+window.sendTo = function(url) {
     location.href = `/nasdkjasnjdklanskjdanskjdnas/${url}?` + params;
-}
+};
 
 document.querySelectorAll(".bottom_element_grid").forEach((element) => {
     element.addEventListener('click', () => {
