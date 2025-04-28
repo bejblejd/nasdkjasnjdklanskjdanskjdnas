@@ -58,13 +58,17 @@ body .bottom_bar{
     top: 50.5%;
     left: 7.5%;
     width: 18.9%;
+    
 }
 
 .eagle_text{
     position: absolute;
-    top: 68.1%;
+    top: 64.1%;
     left: 18%;
     width: 20%;
+    font-size: 12px;   
+    color: #7A7D83;    
+    text-align: left;
 }
 
 .eagle_video{
